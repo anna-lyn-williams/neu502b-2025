@@ -18,7 +18,7 @@ def main(sid: str) -> None:
     logging.info(f'Starting session sid={sid}')
 
     # -- WINDOW -- #
-    win = visual.Window(size=[1000, 10], fullscr=False, color='grey', name='Window')
+    win = visual.Window(size=[1200, 1000], fullscr=False, color='grey', name='Window')
 
     # -- STIMULUS TIMELINE -- #
     fixation = visual.TextStim(win=win, pos=(0, 0), text='+', color='white')
